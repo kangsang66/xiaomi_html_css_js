@@ -1,0 +1,109 @@
+/* 头部 */
+.header_wrapper {
+    width: 1536px;
+    margin: 0 auto;
+    height: 65px ;
+    background:rgba(0, 0, 0, .88);
+    position: fixed;
+    z-index: 999;
+}
+.container {
+    position: absolute;
+    top: 0;
+    left: 768px;
+    transform: translateX(-50%);
+    
+    display: flex;
+    height: 65px;
+    width: 1226px;
+    justify-content: space-between;
+}
+.logo {
+    width: 60px;
+    height: 34px;
+    line-height: 65px;
+}
+.logo img {
+    width: 34px;
+}
+.nav ul {
+    display: flex;
+    width: 940px;
+    height: 65px;
+}
+.nav ul li {
+    padding:0 22px;
+}
+.nav ul li a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 65px;
+}
+.nav ul li a:hover {
+    color: #ff6900;
+}
+.nav ul li:first-child a {
+    color: #ff6900;
+} 
+.login {
+    display: flex;
+    width: 110px;
+    height: 65px;
+    justify-content: space-between;
+    line-height: 65px;
+}
+.login a,
+span {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+.login a:hover {
+    color: #ff6900;
+}
+/* banner */
+.banner  {
+    width: 1536px;
+    margin: 0 auto;
+}
+.banner img {
+    width: 100%;
+    background-position: center top;
+}
+/* 轮播图 */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* 按钮 */
+.swiper-button-next,
+.swiper-button-prev {
+    outline: none;
+    color: #fff;
+}
+

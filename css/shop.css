@@ -1,0 +1,456 @@
+.w {
+    width: 1226px;
+    margin: 0 auto;
+}
+/* 顶端 */
+.top {
+    width: 1519px;
+    height: 40px;
+    background-color: #333;
+}
+.top-wraper {
+    height: 40px;
+    line-height: 40px;
+    color: #424242;
+}
+.text {
+    float: left;
+}
+.text a {
+    color: #b0b0b0;
+    font-size: 12px;
+    padding: 0 3px;
+}
+.top-wraper .text a:hover {
+    color: #fff;
+}
+.info {
+    float: right;
+}
+.info a {
+    color: #b0b0b0;
+}
+.info a:hover {
+    color: #fff;
+}
+.info span  {
+    padding: 0 10px;
+}
+.shopcar {
+    float: right;
+    text-align: center;
+    line-height: 40px;
+}
+.shopcar a{
+    display: block;
+    width: 120px;
+    height: 40px;
+    background-color: #424242;
+    color: #b0b0b0;
+}
+/* 顶端结束 */
+/* header */
+header {
+    width: 1519px;
+}
+.header-wraper {
+    position: relative;
+    height: 100px;
+    line-height: 100px;
+}
+.header-wraper img{
+    width: 56px;
+}
+.logo {
+    float: left;
+}
+.nav {
+    float: left;
+    margin-left: 172px;
+}
+.nav ul li {
+    float: left;
+}
+.nav ul li a {
+    font-size: 16px;
+    color: #333;
+    line-height: 100px;
+    padding: 26px 10px 38px;
+}
+.nav ul li a:hover{
+    color: #ff6700;
+}
+/* 搜索模块 */
+.search {
+    position: absolute;
+    top: 25px;
+    right: 0;
+    width: 297px;
+    height: 50px;
+    border: 1px solid #b0b0b0;
+    overflow: hidden;
+}
+.search input {
+    float: left;
+    width: 230px;
+    height: 48px;
+    font-size: 16px;
+    color: #666;
+    padding: 0 10px;
+}
+.search button {
+    float: right;
+    height: 50px;
+    width: 64px;
+    margin-bottom: 1px;
+    background-color: #fff;
+    border-left: 1px solid #ccc;
+    transition: all linear .2s;
+}
+.search button:hover {
+    background-color: #ff6700;
+    color: #fff;
+}
+.search button::before {
+    font-family: 'icomoon';
+    content: '\e986';
+    font-size: 16px;
+}
+/* header end*/
+/* banner start */
+.banner {
+    position: relative;
+    height: 460px;
+    background-color: cadetblue;
+    overflow: hidden;
+}
+.goods {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 234px;
+    height: 460px;
+    background-color: #333;
+}
+.goods-items ul {
+    padding: 20px 0 20px 0;
+}
+.goods-items ul li {
+    position: relative;
+    width: 234px;
+    height: 42px;
+    padding-left: 30px;
+    line-height: 42px;
+}
+.goods-items ul li::after {
+    position: absolute;
+    right: 28px;
+    content: '\e902';
+    font-family: 'icomoon';
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+}
+.goods-items ul li:hover {
+    background-color: #ff6700;
+}
+.goods-items ul li a {
+    font-size: 14px;
+    color: #fff;
+    
+}
+/* 轮播图开始 */
+.lunbo {
+    float: right;
+    height: 460px;
+    width: 992px;
+    background-color: antiquewhite;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* banner end */
+/* xiaoyang */
+.xiaoyang {
+    height: 170px;
+    margin-top: 14px;
+}
+.safe2 {
+    position: relative;
+    float: left;
+    width: 234px;
+    height: 170px;
+    background-color: #5f5750;;
+}
+.safe2 .icon {
+    display: block;
+   float: left;
+    width: 76px;
+    height: 82px;
+    margin-top: 6px;
+    margin-left: 2px;
+    text-align: center;
+    font-size: 12px;
+    color: #f7f7f7f7;
+}
+.safe2 .icon:hover {
+    color: #fff;
+}
+.safe2 .icon img {
+    width: 24px;
+    height: 24px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+.xiaoyang .pic a {
+    width: 316px;
+    height: 170px;
+    float: left;
+    display: block;
+}
+.xiaoyang .pic a:last-child {
+    float: right;
+}
+.xiaoyang .pic a:nth-of-type(-n+2) {
+    margin-left: 15px;
+}
+.xiaoyang .pic a img {
+    width: 100%;
+    height: 100%;
+}
+/* xiaoyang结束  */
+/* 主页页面ks */
+.main-page {
+    overflow: hidden;
+    width: 1519px;
+    height: 3000px;
+    background-color: #f5f5f5;
+    margin-top: 25px;
+}
+.long {
+    margin-top: 25px;
+}
+.long img {
+    width: 100%;
+    height: 100%;
+}
+.stuff {
+    margin-top: 25px;
+    height: 672px;
+}
+.stf-head {
+    height: 58px;
+    line-height: 58px;
+}
+.stf-head h5 {
+    display: block;
+    float: left;
+    line-height: 58px;
+    font-size: 22px;
+    color: #333;
+    font-weight: 400;
+}
+.stf-head a {
+    position: relative;
+    float: right;
+    padding-right: 30px;
+    display: block;
+    color: #424242;
+    font-size: 16px;
+    line-height: 58px;
+}
+.stf-head .chosed {
+    color: #ff6700;
+    text-decoration: underline;
+}
+.stf-head a:hover {
+    color: #ff6700;
+}
+.stf-head .more::after {
+    position: absolute;
+    top: 1px;
+    content: '\e908';
+    font-family: 'icomoon';
+    font-size: 18px;
+    color: #666;
+}
+.stf-body{
+    height: 614px;
+}
+.shu {
+    float: left;
+    height: 614px;
+    width: 234px;
+    transition: all linear .2s;
+}
+.shu a img {
+    width: 100%;
+    height: 100%;
+}
+.shu:hover {
+    transform: translateY(-3px);
+    box-shadow: .2px .2px 8px #ccc;
+}
+.stf-container {
+    float: right;
+    width: 992px;
+    height: 614px;
+}
+.stf-container ul li {
+    float: left;
+    width: 234px;
+    height: 300px;
+    text-align: center;
+    padding-top: 20px;
+    background-color: #fff;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    transition: all linear .2s;
+}
+.stf-container ul li:hover {
+    transform: translateY(-3px);
+    box-shadow: .2px .2px 8px #ccc;
+}
+.stf-container ul li a img {
+    width: 160px;
+    height: 160px;
+}
+.stf-container ul li h3 {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    width: 241px;
+    height: 21px;
+    font-weight: 400;
+    line-height: 21px;
+    margin: 18px 0 2px 0;
+}
+.stf-container ul li p{
+    display: block;
+    width: 218px;
+    height: 18px;
+    font-size: 12px;
+    color: #b0b0b0;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.stf-container ul li span {
+    color: #ff6700;
+    font-size: 14px;
+}
+.stf-container ul li del {
+    color: #b0b0b0;
+    font-size: 14px;
+    margin-left: 7px;
+}
+.stf-container ul .last {
+    position: relative;
+    width: 234px;
+    height: 143px;
+    text-align: center;
+    overflow: hidden;
+}
+.stf-container ul li .more{
+    width: 94px;
+    height: 45px;
+    margin: 20px 0 0 25px;
+    color: #333;
+    font-size: 18px;
+    
+}
+.stf-container ul li .more::after {
+    position: absolute;
+    right: 40px;
+    top: 22px;
+    content: '\e906';
+    font-family: 'icomoon';
+    font-size: 60px;
+    color: #ff6700;
+}
+.stf-container ul li .more small {
+    color: #757575;
+    font-size: 12px;
+    margin-top: -20px;
+    margin-left: -40px;
+}
+/* 主页页面end */
+/* footer服务 */
+.pre-footer {
+    width: 1519px;
+    height: 80px;
+    background-color: #fff;
+}
+.footer-service {
+    width: 1226px;
+    height: 80px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+}
+.footer-service ul li {
+    float: left;
+    width: 242.74px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 30px;
+    color: #616161;
+    font-size: 16px;
+}
+.footer-service ul li a:hover {
+    color: #ff6700;
+}
+.footer-service ul li:hover {
+    color: #ff6700;
+}
+.footer-service ul li::before {
+    font-size: 18px;
+    font-family: 'icomoon';
+}
+.footer-service ul li:nth-child(1):before {
+    content: '\e90d';
+}
+.footer-service ul li:nth-child(2):before {
+    content: '\e90c';
+}
+.footer-service ul li:nth-child(3):before {
+    content: '\e90b';
+}
+.footer-service ul li:nth-child(4):before {
+    content: '\e909';
+}
+.footer-service ul li:nth-child(5):before {
+    content: '\e90a';
+}
+.footer-service ul li:nth-child(-n+4) {
+    border-right: 1px solid #ccc;
+}
+/* footer服务 end*/
